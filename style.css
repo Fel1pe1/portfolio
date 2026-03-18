@@ -1,0 +1,221 @@
+*{
+    list-style-type: none;
+    margin: 0;
+}
+/*css do header-------------------------------------------------------*/
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+
+.nome{
+    height: 35px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nome h3{
+    font-size: 30px;
+    color: rgb(255, 123, 0); ;
+}
+
+.contatos{
+    height: 35px;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+.botao{
+
+    height: 35px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botao button{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*css do meio-------------------------------------------------------*/
+section{
+
+    height: 776px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textos-centro{
+
+    height: 400px;
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo{
+
+    height: 100px;
+    width: 90%;
+}
+
+.preto{
+    font-size: 35px;
+}
+
+.laranja{
+    font-size: 35px;
+    color: rgb(255, 123, 0);
+}
+
+.texto-mini{
+  
+    height: 100px;
+    width: 90%;
+    color: grey;
+    font-size: 20px;
+}
+
+.botaos{
+ 
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.B01{
+    background-color: rgb(255, 123, 0);
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 15%;
+    border-radius: 20px;
+
+}
+.B02{
+    background-color: white;
+    border-color: rgb(255, 123, 0);
+    color: rgb(255, 123, 0);;
+    height: 30px;
+    width: 15%;
+    border-radius: 20px;
+}
+.B01:hover{
+    background-color: white;
+    border-color: rgb(255, 123, 0);
+    color: rgb(255, 123, 0);;
+    height: 30px;
+    width: 15%;
+    border-radius: 20px;
+}
+.B02:hover{
+    background-color: rgb(255, 123, 0);
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 15%;
+    border-radius: 20px;
+}
+
+
+
+.redes{
+    height: 100px;
+    width: 90%;
+    gap: 20px;
+}
+.redes img{
+    width: 30px;
+}
+
+.imagem-centro{
+  
+    height: 680px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem-centro img{
+    width: 700px;
+}
+/*css do footer-------------------------------------------------------*/
+footer{
+   
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, rgb(255, 123, 0), rgb(243, 127, 18));
+}
+
+.T01 H3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.T01 p{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.T02 H3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.T02 p{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.T03 H3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.T03 p{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
