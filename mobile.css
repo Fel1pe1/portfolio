@@ -24,7 +24,6 @@
     }
 
     .hamburguer{
-        border: solid 1px black;
         width: 30%;
         display: flex;
         justify-content: flex-end;
@@ -34,13 +33,13 @@
 
     }
     .menu-hamburguer {
-        border: solid 1px rgb(20, 190, 63);
         width: 30px;
         display: block;
         background-color: white;
         height: 35px;
         font-size: 20px;
         text-align: center;
+        border: 0px;
     }
     /*css do meio-------------------------------------------------------*/
     section{
