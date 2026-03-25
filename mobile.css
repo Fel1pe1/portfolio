@@ -1,242 +1,119 @@
 @media (max-width: 1024px){
     *{
-    list-style-type: none;
-    margin: 0;
-}
-/*css do header-------------------------------------------------------*/
-header{
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: solid black 1px;
-    border: solid black 1px;
-}
+        box-sizing: border-box;
+    }
+    /*css do header-------------------------------------------------------*/
+    .contatos{
+        display: none;
+    }
 
-.nome{
-    height: 35px;
-    width: 45%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: solid black 1px;
-}
-
-.nome h3{
-    font-size: 30px;
-    color: rgb(255, 123, 0); ;
-}
-
-.contatos{
-    height: 35px;
-    width: 55%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid black 1px;
-    display: none;
-}
-
-header nav{
-    height: 70px;
-    display: flex;
-    align-items: center;
-}
-
-header nav ul{
-    display: flex;
-    gap: 50px;
-}
-
-.botao{
-    height: 35px;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: solid black 1px;
-}
-
-.botao button{
-    background-color: rgb(255, 123, 0);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-/*css do meio-------------------------------------------------------*/
-section{
-    height: 776px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    border: solid black 1px;
-}
-
-.textos-centro{
-    height: 600px;
-    width: 90%;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: solid black 1px;
-}
-
-.titulo{
-    height: 100px;
-    width: 90%;
-    border: solid black 1px;
-}
-
-.preto{
-    font-size: 30px;
-}
-
-.laranja{
-    font-size: 30px;
-    color: rgb(255, 123, 0);
-}
-
-.imgResp img{
-    height: 300px;
-}
-
-.texto-mini{
-    height: 200px;
-    width: 90%;
-    color: grey;
-    font-size: 15px;
-    border: solid black 1px;
-    display: flex;
-}
-
-.botaos{
-    height: 100px;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    border: solid black 1px;
-    justify-content: space-around;
-}
-.B01{
-    background-color: rgb(255, 123, 0);
-    border-color: white;
-    color: white;
-    height: 30px;
-    width: 40%;
-    border-radius: 20px;
-
-}
-.B02{
-    background-color: white;
-    border-color: rgb(255, 123, 0);
-    color: rgb(255, 123, 0);;
-    height: 30px;
-    width: 40%;
-    border-radius: 20px;
-}
-.B01:hover{
-    background-color: white;
-    border-color: rgb(255, 123, 0);
-    color: rgb(255, 123, 0);;
-    height: 30px;
-    width: 40%;
-    border-radius: 20px;
-}
-.B02:hover{
-    background-color: rgb(255, 123, 0);
-    border-color: white;
-    color: white;
-    height: 30px;
-    width: 40%;
-    border-radius: 20px;
-}
+    .nome{
+        width: 50%;
+        margin: 5px;
+        display: flex;
+        justify-content: start;
+    }
 
 
+    .botao{
+       display: none;
+    }
 
-.redes{
-    height: 100px;
-    width: 90%;
-    gap: 20px;
-    border: solid black 1px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.redes img{
-    width: 30px;
+    .botao button{
+        display: none;
+    }
 
-    height: 30px;
-}
+    .hamburguer{
+        border: solid 1px black;
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        height: 40px;
+        align-items: center;
+        
 
-.imagem-centro{
-    border: solid black 1px;
-    height: 680px;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: none;
-}
-.imagem-centro img{
-    width: 700px;
-}
-/*css do footer-------------------------------------------------------*/
-footer{
-   border: solid black 1px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background: linear-gradient(to right, rgb(255, 123, 0), rgb(243, 127, 18));
+    }
+    .menu-hamburguer {
+        border: solid 1px rgb(20, 190, 63);
+        width: 30px;
+        display: block;
+        background-color: white;
+        height: 35px;
+        font-size: 20px;
+        text-align: center;
+    }
+    /*css do meio-------------------------------------------------------*/
+    section{
+        flex-direction: column;
+    }
 
-}
+    .textos-centro{
+        height: 700px;
+        width: 90%;
+    }
 
-.T01 H3{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 30px;
-}
-.T01 p{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 20px;
-}
+    .preto{
+        font-size: 30px;
+    }
 
-.T02 H3{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 30px;
-}
-.T02 p{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 20px;
-}
+    .laranja{
+        font-size: 30px;
+        color: rgb(255, 123, 0);
+    }
 
-.T03 H3{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 30px;
-}
-.T03 p{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 20px;
-}
+    .texto-mini{
+        height: 200px;
+    }
+
+    .imgResp img{
+        display: block;
+        height: 300px;
+    }
+
+    .botaos{
+        justify-content: space-around;
+    }
+
+    .B01{
+        height: 30px;
+        width: 30%;
+    }
+    .B02{
+        height: 30px;
+        width: 30%;
+    }
+    .B01:hover{
+        height: 30px;
+        width: 30%;
+    }
+    .B02:hover{
+        height: 30px;
+        width: 30%;
+    }
+    .redes{
+        border: solid black 1px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .imagem-centro{
+        display: none;
+    }
+
+    .T01 p{
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .T02 p{
+        text-align: center;
+        margin-left: 5px; 
+        margin-right: 5px;
+    }
+
+    .T03 p{
+        text-align: center;
+        margin-right: 5px;
+    }
+    
 }

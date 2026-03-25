@@ -47,7 +47,6 @@ header nav ul{
 }
 
 .botao{
-
     height: 35px;
     width: 10%;
     display: flex;
@@ -64,6 +63,9 @@ header nav ul{
     padding: 10px;
 }
 
+.menu-hamburguer{
+    display: none
+}
 /*css do meio-------------------------------------------------------*/
 section{
     height: 776px;
@@ -131,9 +133,9 @@ section{
     border-radius: 20px;
 }
 .B01:hover{
-    background-color: white;
-    border-color: rgb(255, 123, 0);
-    color: rgb(255, 123, 0);;
+    background-color: rgb(245, 163, 87);
+    border-color: white;
+    color: white;
     height: 30px;
     width: 15%;
     border-radius: 20px;
@@ -169,6 +171,10 @@ section{
 }
 .imagem-centro img{
     width: 700px;
+}
+
+.imgResp img{
+    display: none;
 }
 /*css do footer-------------------------------------------------------*/
 footer{
